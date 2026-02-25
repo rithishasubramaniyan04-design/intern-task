@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* NAVBAR */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: black;
+    padding: 20px 0;
+    z-index: 1000;   /* IMPORTANT */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+/* CONTENT */
+.content {
+    margin-top: 100px;   /* VERY IMPORTANT */
+    text-align: center;
+    height: 1200px;      /* For scrolling */
+}
