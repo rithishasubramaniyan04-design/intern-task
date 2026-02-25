@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    line-height:1.6;
+}
+
+/* Header */
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+    background:#222;
+}
+
+.logo{
+    color:white;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#00bcd4;
+}
+
+/* Sections */
+section{
+    padding:80px 50px;
+    text-align:center;
+}
+
+.home{
+    background:linear-gradient(to right,#6a11cb,#2575fc);
+    color:white;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.home button{
+    padding:10px 20px;
+    border:none;
+    background:white;
+    color:#2575fc;
+    font-weight:bold;
+    cursor:pointer;
+    margin-top:15px;
+}
+
+.home button:hover{
+    background:#ddd;
+}
+
+/* About */
+.about{
+    background:#f4f4f4;
+}
+
+/* Projects */
+.projects{
+    background:white;
+}
+
+.project-card{
+    background:#f4f4f4;
+    margin:20px auto;
+    padding:20px;
+    width:60%;
+    border-radius:10px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Contact */
+.contact{
+    background:#222;
+    color:white;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:15px;
+    background:#111;
+    color:white;
+}
